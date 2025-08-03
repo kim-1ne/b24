@@ -45,5 +45,5 @@ $application
     ])
     ->run();
 
-$application = \Bitrix\Main\DI\ServiceLocator::getInstance()->get(Application::class);
+$application = ServiceLocator::getInstance()->get(Application::class);
 ```
