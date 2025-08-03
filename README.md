@@ -17,11 +17,18 @@ use B24\Devtools\Application\Application;
 
 $configuration = new \B24\Devtools\Application\Configuration();
 $configuration
-    ->setLazyService('my-service', function () {
+    ->setLazyService(name: 'my-service', callback:  function () {
         return new MyService();
     })
-    ->setService(name: 'my-service', className: MyService::class, construct: $construct)
-    ->setController('\\Kim1ne\\B24\\Controller', 'api')
+    ->setService(
+        name: 'my-service', 
+        className: MyService::class, 
+        construct: $construct
+    )
+    ->setController(
+        namespace: '\\Kim1ne\\B24\\Controller', 
+        name:  'api'
+    )
     ->setEntitySelector(
         entityId: 'CRM_DEAL',
         providerClass: new ProviderClass(),
