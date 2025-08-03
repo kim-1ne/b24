@@ -14,10 +14,11 @@ composer require kim-1ne/b24
 ## Пример использования:
 ```php
 use B24\Devtools\Application\Application;
+use Bitrix\Main\DI\ServiceLocator;
 
 $configuration = new \B24\Devtools\Application\Configuration();
 $configuration
-    ->setLazyService(name: 'my-service', callback:  function () {
+    ->setLazyService(name: 'my-service', callback:  function (ServiceLocator $locator) {
         return new MyService();
     })
     ->setService(

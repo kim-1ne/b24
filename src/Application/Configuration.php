@@ -54,7 +54,9 @@ final class Configuration
     public function setLazyService(string $name, callable $callback): self
     {
         $this->data['services'][$name] = [
-            'constructor' => $callback,
+            'constructor' => function () use ($callback) {
+                return $callback(ServiceLocator::getInstance());
+            },
         ];
 
         return $this;
