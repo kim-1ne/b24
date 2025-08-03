@@ -6,10 +6,10 @@
 ```php
 composer require kim-1ne/b24
 ```
-Удобное API для работы с DI-контейнером Bitrix24
-Подмена родных Entity-selector'ов Bitrix24
-Удобная замена Service-контейнера и подмена фабрики
-.env окружение
+- Удобное API для работы с DI-контейнером Bitrix24
+- Подмена родных Entity-selector'ов Bitrix24
+- Удобная замена Service-контейнера и подмена фабрики
+- .env окружение
 ## Пример использования:
 ```php
 use B24\Devtools\Application\Application;
