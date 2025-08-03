@@ -1,12 +1,18 @@
 Фреймворк для фреймворка Bitrix24
 
+> Библиотека регистрируется как модуль в системе битрикс с помощью [Reflection API](https://www.php.net/manual/ru/book.reflection.php) после вызова метода run у объекта B24\Devtools\Application\Application. 
+
 # Установка
 ```php
 composer require kim-1ne/b24
 ```
+Удобное API для работы с DI-контейнером Bitrix24
+Подмена родных Entity-selector'ов Bitrix24
+Удобная замена Service-контейнера и подмена фабрики
+.env окружение
 ## Пример использования:
 ```php
-yse B24\Devtools\Application\Application;
+use B24\Devtools\Application\Application;
 
 $configuration = new \B24\Devtools\Application\Configuration();
 $configuration
