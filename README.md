@@ -1,6 +1,6 @@
 # Библиотека для фреймворка Bitrix24
 
-> Библиотека регистрируется как модуль в системе Bitrix с помощью [Reflection API](https://www.php.net/manual/ru/book.reflection.php) после вызова метода run у объекта B24\Devtools\Application\Application и регистрируется в Bitrix\Main\DI\ServiceLocator  
+> Библиотека регистрируется как модуль в системе Bitrix с помощью [Reflection API](https://www.php.net/manual/ru/book.reflection.php) после вызова метода run у объекта Kim1ne\B24\Application\Application и регистрируется в Bitrix\Main\DI\ServiceLocator  
 
 # Установка
 ```php
@@ -13,10 +13,11 @@ composer require kim-1ne/b24
 - инициализация [контроллеров](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=6436&LESSON_PATH=3913.3516.5062.3750.6436&ysclid=mdvsayimn9358699657) без создания модулей
 ## Пример использования:
 ```php
-use B24\Devtools\Application\Application;
+use Kim1ne\B24\Application\Application;
 use Bitrix\Main\DI\ServiceLocator;
+use Kim1ne\B24\Application\Configuration;
 
-$configuration = new \B24\Devtools\Application\Configuration();
+$configuration = new Configuration();
 $configuration
     ->setLazyService(name: 'my-service', callback:  function (ServiceLocator $locator) {
         return new MyService();
