@@ -2,7 +2,7 @@
     "name": "kim-1ne/b24",
     "autoload": {
         "psr-4": {
-            "B24\\Devtools\\": "src/"
+            "Kim1ne\\B24\\": "src/"
         }
     },
     "version": "1.0.0",
