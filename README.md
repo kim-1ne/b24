@@ -1,7 +1,7 @@
 # Библиотека для фреймворка Bitrix24
 
 > Библиотека регистрируется как модуль в системе Bitrix с помощью [Reflection API](https://www.php.net/manual/ru/book.reflection.php). 
-> После вызова метода run у объекта Kim1ne\B24\Application\Application и регистрируется в Bitrix\Main\DI\ServiceLocator  
+> После вызова метода run у объекта [Kim1ne\B24\Application\Application](https://github.com/kim-1ne/b24/blob/master/src/Application/Application.php) и регистрируется в Bitrix\Main\DI\ServiceLocator  
 
 # Установка
 ```php
