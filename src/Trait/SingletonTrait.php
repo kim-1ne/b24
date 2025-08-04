@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Trait;
+namespace Kim1ne\B24\Trait;
 
 trait SingletonTrait
 {

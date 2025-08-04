@@ -1,15 +1,15 @@
 <?php
 
-namespace B24\Devtools\Service\EntityGenerator;
+namespace Kim1ne\B24\Service\EntityGenerator;
 
-use B24\Devtools\Data\StringHelper;
+use Kim1ne\B24\Data\StringHelper;
 use Bitrix\Main\Application;
 use Bitrix\Main\Entity\DataManager;
 use Bitrix\Main\ORM\Entity;
 
 class EntityGenerator
 {
-    private ?string $namespace = 'B24\Devtools\Entity';
+    private ?string $namespace = 'Kim1ne\B24\Entity';
 
     public readonly string $tableNameNotPrefix;
 

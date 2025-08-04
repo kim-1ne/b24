@@ -1,8 +1,8 @@
 <?php
 
-namespace B24\Devtools\Service\UserField;
+namespace Kim1ne\B24\Service\UserField;
 
-use B24\Devtools\Trait\SingletonTrait;
+use Kim1ne\B24\Trait\SingletonTrait;
 use Bitrix\Main\ORM\Query\Result;
 use Bitrix\Main\UserFieldTable;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Console;
+namespace Kim1ne\B24\Console;
 
 use Symfony\Component\Console;
 

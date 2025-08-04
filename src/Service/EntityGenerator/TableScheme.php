@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Service\EntityGenerator;
+namespace Kim1ne\B24\Service\EntityGenerator;
 
 use Bitrix\Main\Config\Option;
 use Bitrix\Main\DB\Connection;

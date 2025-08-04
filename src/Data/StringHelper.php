@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Data;
+namespace Kim1ne\B24\Data;
 
 class StringHelper
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace B24\Devtools\Console\Command;
+namespace Kim1ne\B24\Console\Command;
 
 use Symfony\Component\Console\Command\Command as SymfonyCommand;
 
 abstract class Command
 {
-    const DEFAULT_NAMESPACE = '\B24\Devtools\Console\Command\\';
+    const DEFAULT_NAMESPACE = '\Kim1ne\B24\Console\Command\\';
 
     /**
      * @param string|null $dir

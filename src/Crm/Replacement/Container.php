@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Crm\Replacement;
+namespace Kim1ne\B24\Crm\Replacement;
 
 use Bitrix\Crm\Service;
 

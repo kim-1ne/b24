@@ -2,8 +2,8 @@
 namespace PHPSTORM_META
 {
 
-    use B24\Devtools\Application\Application;
-    use B24\Devtools\Service\UserField\UserFieldService;
+    use Kim1ne\B24\Application\Application;
+    use Kim1ne\B24\Service\UserField\UserFieldService;
 
     registerArgumentsSet('bitrix_documentgenerator_serviceLocator_codes',
 		Application::class,

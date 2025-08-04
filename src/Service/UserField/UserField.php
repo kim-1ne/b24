@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Service\UserField;
+namespace Kim1ne\B24\Service\UserField;
 
 use Bitrix\Crm\Service\Display\Field\IblockElementField;
 use Bitrix\Crm\UserField\Types\ElementType;

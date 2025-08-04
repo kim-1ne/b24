@@ -1,8 +1,8 @@
 <?php
 
-namespace B24\Devtools\Console\Command;
+namespace Kim1ne\B24\Console\Command;
 
-use B24\Devtools\Service\EntityGenerator\EntityGenerator;
+use Kim1ne\B24\Service\EntityGenerator\EntityGenerator;
 use Bitrix\Main\Application;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;

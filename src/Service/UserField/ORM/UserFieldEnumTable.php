@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Service\UserField\ORM;
+namespace Kim1ne\B24\Service\UserField\ORM;
 
 use Bitrix\Main\ORM\Data\DataManager;
 use Bitrix\Main\ORM\Fields\BooleanField;

@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Application;
+namespace Kim1ne\B24\Application;
 
 use Bitrix\Main\DI\ServiceLocator;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace B24\Devtools\Application;
+namespace Kim1ne\B24\Application;
 
 use Bitrix\UI\EntitySelector\BaseProvider;
 
 final class EntitySelector
 {
-    const EXTENSION_NAME = 'b24.devtools.entity-selector';
+    const EXTENSION_NAME = 'kim1ne.b24.entity-selector';
 
     private static array $selectorId2options = [];
 

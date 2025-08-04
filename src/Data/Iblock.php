@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Data;
+namespace Kim1ne\B24\Data;
 
 use Bitrix\Main\ORM\Data\DataManager;
 use Bitrix\Iblock\IblockTable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace B24\Devtools\Service\UserField;
+namespace Kim1ne\B24\Service\UserField;
 
 class EnumCollection implements \IteratorAggregate
 {

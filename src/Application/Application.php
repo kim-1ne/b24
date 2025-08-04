@@ -1,8 +1,8 @@
 <?php
 
-namespace B24\Devtools\Application;
+namespace Kim1ne\B24\Application;
 
-use B24\Devtools\Crm\Replacement\Container;
+use Kim1ne\B24\Crm\Replacement\Container;
 use Bitrix\Main\Config;
 use Bitrix\Main\DI\ServiceLocator;
 use Bitrix\Main\Loader;
@@ -11,7 +11,7 @@ use Dotenv\Dotenv;
 
 final class Application
 {
-    const MODULE_NAME = 'b24.devtools';
+    const MODULE_NAME = 'kim1ne.b24';
 
     private bool $isRun = false;
 

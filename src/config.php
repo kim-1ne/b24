@@ -1,7 +1,7 @@
 <?php
 
-use B24\Devtools\Application\Configuration;
-use B24\Devtools\Service\UserField\UserFieldService;
+use Kim1ne\B24\Application\Configuration;
+use Kim1ne\B24\Service\UserField\UserFieldService;
 
 /**
  * @var Configuration $this
