@@ -49,5 +49,5 @@ $application
     ->run();
 
 $application = ServiceLocator::getInstance()->get(Application::class);
-\CModule::IncludeModule('kim1ne.b24')
+\CModule::IncludeModule('kim1ne.b24'); // true
 ```
