@@ -11,6 +11,7 @@ composer require kim-1ne/b24
 - Подмена родных Entity-selector'ов Bitrix24
 - Удобная замена Service-контейнера и подмена фабрики
 - .env окружение
+- Генерация ORM-сущностей через Symfony-cli
 - инициализация [контроллеров](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=6436&LESSON_PATH=3913.3516.5062.3750.6436&ysclid=mdvsayimn9358699657) без создания модулей
 ## Пример использования:
 ```php
